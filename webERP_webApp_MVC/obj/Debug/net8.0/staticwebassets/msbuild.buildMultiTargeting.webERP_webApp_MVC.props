@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\webERP_webApp_MVC.props" />
+</Project>

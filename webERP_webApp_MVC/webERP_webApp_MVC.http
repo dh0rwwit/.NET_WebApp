@@ -1,0 +1,6 @@
+@webERP_webApp_MVC_HostAddress = http://localhost:5000
+
+GET {{React_ASP.NET.Core.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
