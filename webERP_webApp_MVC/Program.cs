@@ -1,52 +1,166 @@
-
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Yarp.ReverseProxy.Configuration;
-using System.Collections.Generic;
-using Yarp.ReverseProxy.LoadBalancing;
+using System.Text;
+using System.Security.Cryptography; // 추가 필요
 
 var builder = WebApplication.CreateBuilder(args);
-// YARP Reverse Proxy 설정 (React 개발 서버를 프록시)
+
+builder.Services.Configure<HttpResponse>(options =>
+{
+    options.Headers["Content-Type"] = "text/html; charset=utf-8";
+});
+
+
+// YARP 설정 추가 : Kestrel에 리버스 프록시, 로드밸런싱 기능 부여, nginx와 달리 .config가 아닌 코드 작성
 builder.Services.AddReverseProxy().LoadFromMemory(
-new[]
+    new[]
     {
-        // React (Vite) 프록시 라우팅
+        // client1 프록시 라우팅
         new RouteConfig
         {
-            RouteId = "react-client",
-            ClusterId = "react-cluster",
+            RouteId = "client1",
+            ClusterId = "client1-cluster",
             Match = new RouteMatch { Path = "/client1/{**catch-all}" }
+        },
+        new RouteConfig // client2 프록시 라우팅
+        {
+            RouteId = "client2",
+            ClusterId = "client2-cluster",
+            Match = new RouteMatch { Path = "/client2/{**catch-all}" }
         }
     },
     new[]
     {
-        // React (Vite) 개발 서버 프록시 (포트 변경)
-        new ClusterConfig
+        new ClusterConfig // Client1 로드 밸런싱 (RoundRobin)
         {
-            ClusterId = "react-cluster",
+            ClusterId = "client1-cluster",
             Destinations = new Dictionary<string, DestinationConfig>
             {
-                { "react-dev", new DestinationConfig { Address = "https://localhost:5174" } }
+                { "client1", new DestinationConfig { Address = "http://localhost:5173" } } // YARP가 바라보는 대상
+            }
+        },
+        new ClusterConfig // Client2 단일 서버 프록시
+        {
+            ClusterId = "client2-cluster",
+            Destinations = new Dictionary<string, DestinationConfig>
+            {
+                { "client2", new DestinationConfig { Address = "http://localhost:5173" } }  // YARP가 바라보는 대상
             }
         }
-    });
+    }
+);
 
 var app = builder.Build();
+
+app.MapGet("/api", () => "Hello asp.net core");
+
+app.MapReverseProxy();
+
+// 모든 응답을 UTF-8로 강제 설정
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Add("Content-Type", "text/html; charset=utf-8");
+    await next();
+});
 
 // 기본 루트 페이지 추가 (404 방지)
 app.MapGet("/", async context =>
 {
-    await context.Response.WriteAsync("Welcome to YARP Reverse Proxy! Use /client1/ for React.");
+    var message = "클라이언트 프로젝트를 run하고, 서버 프로젝트의 Program.cs의 app.MapGet에 설정한 링크를 끝에 추가하세요 \n " +
+    "https://localhost:5174/ -> https://localhost:5174/api";
+    var Encode = Encoding.UTF8.GetBytes(message);
+    await context.Response.Body.WriteAsync(Encode, 0, Encode.Length);
+    // await context.Response.WriteAsync("클라이언트 프로젝트를 run하고, 서버 프로젝트의 Program.cs의 app.MapGet에 설정한 링크를 끝에 추가하세요");
 });
 
-// YARP 미들웨어 적용
 app.UseRouting();
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapReverseProxy(); // YARP 적용
+    endpoints.MapReverseProxy();
 });
 
 app.Run();
+
+
+
+//using Microsoft.AspNetCore.Builder;
+//using Microsoft.Extensions.DependencyInjection;
+//using Yarp.ReverseProxy.Configuration;
+
+//var builder = WebApplication.CreateBuilder(args);
+
+//// YARP 설정 추가 : Kestrel에 리버스 프록시, 로드밸런싱 기능 부여, nginx와 달리 .config가 아닌 코드 작성
+//builder.Services.AddReverseProxy().LoadFromMemory(
+//    new[]
+//    {
+//        // client1 프록시 라우팅
+//        new RouteConfig
+//        {
+//            RouteId = "client1",
+//            ClusterId = "client1-cluster",
+//            Match = new RouteMatch { Path = "/client1/{**catch-all}" }
+//        },
+//        new RouteConfig // client2 프록시 라우팅
+//        {
+//            RouteId = "client2",
+//            ClusterId = "client2-cluster",
+//            Match = new RouteMatch { Path = "/client2/{**catch-all}" }
+//        }
+//    },
+//    new[]
+//    {
+//        new ClusterConfig // Client1 로드 밸런싱 (RoundRobin)
+//        {
+//            ClusterId = "client1-cluster",
+//            Destinations = new Dictionary<string, DestinationConfig>
+//            {
+//                { "client1", new DestinationConfig { Address = "http://localhost:5173" } } // YARP가 바라보는 대상
+//            }
+//        },
+//        new ClusterConfig // Client2 단일 서버 프록시
+//        {
+//            ClusterId = "client2-cluster",
+//            Destinations = new Dictionary<string, DestinationConfig>
+//            {
+//                { "client2", new DestinationConfig { Address = "http://localhost:5173" } }  // YARP가 바라보는 대상
+//            }
+//        }
+//    }
+//);
+
+//var app = builder.Build();
+
+//// 기본 루트 페이지 추가 (404 방지)
+//app.MapGet("/", async context =>
+//{
+//    await context.Response.WriteAsync("Welcome to YARP Reverse Proxy! Use /client1/ for React.");
+//});
+
+//app.UseRouting();
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapReverseProxy();
+//});
+
+//app.Run();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -189,65 +303,7 @@ app.Run();
 */
 
 
-#region Yarp가 바라보는 대상이 지정되어있지않고, client프로젝트를 끌어오는 경우도 고려되지 않음.
-/*using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Yarp.ReverseProxy.Configuration;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// YARP 설정 추가 : Kestrel에 리버스 프록시, 로드밸런싱 기능 부여, nginx와 달리 .config가 아닌 코드 작성
-builder.Services.AddReverseProxy().LoadFromMemory(
-    new[]
-    {
-        // client1 프록시 라우팅
-        new RouteConfig
-        {
-            RouteId = "client1",
-            ClusterId = "client1-cluster",
-            Match = new RouteMatch { Path = "/client1/{**catch-all}" }
-        },
-        new RouteConfig // client2 프록시 라우팅
-        {
-            RouteId = "client2",
-            ClusterId = "client2-cluster",
-            Match = new RouteMatch { Path = "/client2/{**catch-all}" }
-        }
-    },
-    new[]
-    {
-        new ClusterConfig // Client1 로드 밸런싱 (RoundRobin)
-        {
-            ClusterId = "client1-cluster",
-            Destinations = new Dictionary<string, DestinationConfig>
-            {
-                { "client1", new DestinationConfig { Address = "http://localhost:3000" } } // YARP가 바라보는 대상
-            }
-        },
-        new ClusterConfig // Client2 단일 서버 프록시
-        {
-            ClusterId = "client2-cluster",
-            Destinations = new Dictionary<string, DestinationConfig>
-            {
-                { "client2", new DestinationConfig { Address = "http://localhost:4200" } }  // YARP가 바라보는 대상
-            }
-        }
-    }
-);
-
-
-var app = builder.Build();
-
-
-app.UseRouting();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapReverseProxy();
-});
-
-app.Run();
-*/
-#endregion
 
 #region  초기 생성
 /*

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lw9fmzfagCg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\react_net.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dh0rw\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.13\\microsoft.aspnetcore.spaproxy.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

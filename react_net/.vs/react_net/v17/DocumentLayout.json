@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|solutionrelative:react_net.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.server\\react_net.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|solutionrelative:react_net.server\\react_net.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86EAE12F-E07C-49FF-BA93-3BCE77AD481F}|react_net.client\\react_net.client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86EAE12F-E07C-49FF-BA93-3BCE77AD481F}|react_net.client\\react_net.client.esproj|solutionrelative:react_net.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|solutionrelative:react_net.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBBB589-1E56-44AF-BB63-84148BD10DB1}|react_net.Server\\react_net.Server.csproj|solutionrelative:react_net.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86EAE12F-E07C-49FF-BA93-3BCE77AD481F}|react_net.client\\react_net.client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_net\\react_net.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{86EAE12F-E07C-49FF-BA93-3BCE77AD481F}|react_net.client\\react_net.client.esproj|solutionrelative:react_net.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "react_net.client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.client\\.vscode\\launch.json",
+              "RelativeToolTip": "react_net.client\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T14:07:29.923Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.client\\vite.config.js",
+              "RelativeDocumentMoniker": "react_net.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.client\\vite.config.js",
+              "RelativeToolTip": "react_net.client\\vite.config.js",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-15T14:08:09.862Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "react_net.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "react_net.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T14:08:32.941Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\Program.cs",
+              "RelativeDocumentMoniker": "react_net.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\Program.cs",
+              "RelativeToolTip": "react_net.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:08:55.624Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "react_net.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\appsettings.json",
+              "RelativeToolTip": "react_net.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T14:08:50.725Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "react_net.Server.http",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\react_net.Server.http",
+              "RelativeDocumentMoniker": "react_net.Server\\react_net.Server.http",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.Server\\react_net.Server.http",
+              "RelativeToolTip": "react_net.Server\\react_net.Server.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-15T14:09:09.206Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "react_net.Server/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SpaProxy": "8.0.13"
+        },
+        "runtime": {
+          "react_net.Server.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.SpaProxy/8.0.13": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {
+            "assemblyVersion": "8.0.13.0",
+            "fileVersion": "8.0.1325.6610"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "react_net.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.SpaProxy/8.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MwrXZfC53RySu6fnXeL6+l8JaiuHs1c3oruvs1ZzKCKH6vJ4MR0zLuGETb37kiS9wzIVXQCtqgR5Bsf5Dzm1+Q==",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.13",
+      "hashPath": "microsoft.aspnetcore.spaproxy.8.0.13.nupkg.sha512"
+    }
+  }
+}

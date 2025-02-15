@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "HOrSCQntbdFbmh8DhJ4N3kB3pCO+Njge5C2VWI+Vd84=",
+  "Source": "react_net.Server",
+  "BasePath": "_content/react_net.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\react_net\\react_net.client\\react_net.client.esproj",
+      "Version": 2,
+      "Source": "react_net.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
