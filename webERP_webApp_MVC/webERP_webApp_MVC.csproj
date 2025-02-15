@@ -4,9 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<!--<SpaRoot>..\weberp_react_client</SpaRoot>
-	<SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
-    <SpaProxyServerUrl>https://localhost:5001</SpaProxyServerUrl>-->
   </PropertyGroup>
 
   <ItemGroup>

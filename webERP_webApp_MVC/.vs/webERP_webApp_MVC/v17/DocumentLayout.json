@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8F4E80E-90B4-498E-8B7A-7790A3FA16C1}|..\\React_ASP.NET.Core\\React_ASP.NET.Core.Server\\React_ASP.NET.Core.Server.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\react_asp.net.core\\react_asp.net.core.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,48 +16,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 181,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T15:45:37.304Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T16:18:52.163Z",
-              "IsPinned": true,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "RelativeDocumentMoniker": "..\\webERP_React_Client\\vite.config.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "RelativeToolTip": "..\\webERP_React_Client\\vite.config.js",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-15T13:35:19.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\React_ASP.NET.Core\\React_ASP.NET.Core.Server\\Program.cs",
-              "RelativeDocumentMoniker": "..\\React_ASP.NET.Core\\React_ASP.NET.Core.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\React_ASP.NET.Core\\React_ASP.NET.Core.Server\\Program.cs",
-              "RelativeToolTip": "..\\React_ASP.NET.Core\\React_ASP.NET.Core.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T17:52:48.063Z",
+              "WhenOpened": "2025-02-15T13:30:20.557Z",
               "EditorCaption": ""
             }
           ]

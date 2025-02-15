@@ -3,6 +3,126 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Yarp.ReverseProxy.Configuration;
 using System.Collections.Generic;
+using Yarp.ReverseProxy.LoadBalancing;
+
+var builder = WebApplication.CreateBuilder(args);
+// YARP Reverse Proxy 설정 (React 개발 서버를 프록시)
+builder.Services.AddReverseProxy().LoadFromMemory(
+new[]
+    {
+        // React (Vite) 프록시 라우팅
+        new RouteConfig
+        {
+            RouteId = "react-client",
+            ClusterId = "react-cluster",
+            Match = new RouteMatch { Path = "/client1/{**catch-all}" }
+        }
+    },
+    new[]
+    {
+        // React (Vite) 개발 서버 프록시 (포트 변경)
+        new ClusterConfig
+        {
+            ClusterId = "react-cluster",
+            Destinations = new Dictionary<string, DestinationConfig>
+            {
+                { "react-dev", new DestinationConfig { Address = "https://localhost:5174" } }
+            }
+        }
+    });
+
+var app = builder.Build();
+
+// 기본 루트 페이지 추가 (404 방지)
+app.MapGet("/", async context =>
+{
+    await context.Response.WriteAsync("Welcome to YARP Reverse Proxy! Use /client1/ for React.");
+});
+
+// YARP 미들웨어 적용
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapReverseProxy(); // YARP 적용
+});
+
+app.Run();
+
+
+
+/* 
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Yarp.ReverseProxy.Configuration;
+using System.Collections.Generic;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// YARP Reverse Proxy 설정 (React 개발 서버를 프록시)
+builder.Services.AddReverseProxy().LoadFromMemory(
+    new[]
+    {
+        // React (Vite) 프록시 라우팅
+        new RouteConfig
+        {
+            RouteId = "react-client",
+            ClusterId = "react-cluster",
+            Match = new RouteMatch { Path = "/client1/{**catch-all}" }
+        },
+        // Angular 프록시 라우팅
+        new RouteConfig
+        {
+            RouteId = "angular-client",
+            ClusterId = "angular-cluster",
+            Match = new RouteMatch { Path = "/client2/{**catch-all}" }
+        }
+    },
+    new[]
+    {
+        // React (Vite) 개발 서버 프록시
+        new ClusterConfig
+        {
+            ClusterId = "react-cluster",
+            Destinations = new Dictionary<string, DestinationConfig>
+            {
+                { "react-dev", new DestinationConfig { Address = "https://localhost:5173" } }
+            }
+        }
+        ,
+        // Angular 개발 서버 프록시
+        new ClusterConfig
+        {
+            ClusterId = "angular-cluster",
+            Destinations = new Dictionary<string, DestinationConfig>
+            {
+                { "angular-dev", new DestinationConfig { Address = "http://localhost:4200" } }
+            }
+        }
+    });
+
+var app = builder.Build();
+
+// 기본 루트 페이지 추가 (404 방지)
+app.MapGet("/", async context =>
+{
+    await context.Response.WriteAsync("Welcome to YARP Reverse Proxy! Use /client1/ for React or /client2/ for Angular.");
+});
+
+// YARP 미들웨어 적용
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapReverseProxy(); // YARP 적용
+});
+
+app.Run();
+*/
+
+/*
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Yarp.ReverseProxy.Configuration;
+using System.Collections.Generic;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -66,7 +186,7 @@ app.UseEndpoints(endpoints =>
 
 app.Run();
 
-
+*/
 
 
 #region Yarp가 바라보는 대상이 지정되어있지않고, client프로젝트를 끌어오는 경우도 고려되지 않음.
