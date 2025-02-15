@@ -7,17 +7,18 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
     plugins: [react()],
     server: {
-        port: 5173, // Vite 개발 서버 포트
+        port: 5173, // react Vite 개발 서버 포트
         proxy: {
             "/api": {
-                target: "https://localhost:5174", // ASP.NET Core API 서버
+                target: "http://localhost:5000", // ASP.NET Core API 서버
                 changeOrigin: true,
                 secure: false,
             },
             "/client1": {
-                target: "https://localhost:5174", // YARP 프록시 서버 (React)
+                target: "http://localhost:5174", // YARP 프록시 서버 (React)
                 changeOrigin: true,
                 secure: false,
+                rewrite: (path) => path.replace(/^\/client1/, "")
             },
         },
     },
