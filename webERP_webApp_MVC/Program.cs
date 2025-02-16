@@ -1,7 +1,78 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Yarp.ReverseProxy.Configuration;
+using System.Text;
+using System.Collections.Generic;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddReverseProxy().LoadFromMemory(
+    new[]
+    {
+        new RouteConfig { RouteId = "client1", ClusterId = "client1-cluster", Match = new RouteMatch { Path = "/client1/{**catch-all}" } },
+        new RouteConfig { RouteId = "client2", ClusterId = "client2-cluster", Match = new RouteMatch { Path = "/client2/{**catch-all}" } }
+    },
+    new[]
+    {
+        new ClusterConfig { ClusterId = "client1-cluster", Destinations = new Dictionary<string, DestinationConfig> { { "client1", new DestinationConfig { Address = "http://localhost:5000" } } } },
+        new ClusterConfig { ClusterId = "client2-cluster", Destinations = new Dictionary<string, DestinationConfig> { { "client2", new DestinationConfig { Address = "http://localhost:5000" } } } }
+    }
+);
+
+var app = builder.Build();
+
+// 상태 저장을 위한 변수
+int countValue = 0;
+
+// React에서 보낸 count 값 저장
+app.MapPost("/update-count", async (HttpContext context) =>
+{
+    var requestBody = await new StreamReader(context.Request.Body).ReadToEndAsync();
+    if (int.TryParse(requestBody, out int newCount))
+    {
+        countValue = newCount;
+    }
+    context.Response.StatusCode = 204; // No Content
+});
+
+// 클라이언트에서 count 값을 받아와서 표시
+app.MapGet("/api", () => $"Hello asp.net core, Count: {countValue}");
+
+app.MapReverseProxy();
+
+#region 모든 응답을 UTF-8로 강제 설정
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Add("Content-Type", "text/html; charset=utf-8");
+    await next();
+});
+
+// 기본 루트 페이지 추가 (404 방지)
+app.MapGet("/", async context =>
+{
+    var message = "클라이언트 프로젝트를 run하고, 서버 프로젝트의 Program.cs의 app.MapGet에 설정한 링크를 끝에 추가하세요 \n " +
+    "https://localhost:5174/ -> https://localhost:5174/api \n" +
+    "서버 -> 클라이언트 값 전달, 클라이언트 -> 서버로 값 전달 해보기"
+
+    ;
+    var Encode = Encoding.UTF8.GetBytes(message);
+    await context.Response.Body.WriteAsync(Encode, 0, Encode.Length);
+    // await context.Response.WriteAsync("클라이언트 프로젝트를 run하고, 서버 프로젝트의 Program.cs의 app.MapGet에 설정한 링크를 끝에 추가하세요");
+});
+#endregion
+
+////
+app.UseRouting();
+app.UseEndpoints(endpoints => { endpoints.MapReverseProxy(); });
+
+app.Run();
+
+
 
 #region ReversProxy설정을 직접
 
-using Microsoft.AspNetCore.Builder;
+/*using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Yarp.ReverseProxy.Configuration;
 using System.Text;
@@ -106,5 +177,5 @@ app.UseEndpoints(endpoints =>
 app.Run();
 
 
-
+*/
 #endregion

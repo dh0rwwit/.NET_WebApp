@@ -6,35 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\weberp_react_client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_webapp_mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933F50B7-AA11-4359-9A92-340DF960624D}|..\\webERP_React_Client\\weberp_react_client.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\weberp_react_client\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,25 +16,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launch.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
-              "RelativeDocumentMoniker": "..\\webERP_React_Client\\.vscode\\launch.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
-              "RelativeToolTip": "..\\webERP_React_Client\\.vscode\\launch.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T14:11:11.478Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
               "RelativeDocumentMoniker": "..\\webERP_React_Client\\vite.config.js",
@@ -76,107 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAADwv0kAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:29:29.762Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABgAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T14:23:15.117Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "weberp_react_client",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\weberp_react_client.esproj",
-              "RelativeDocumentMoniker": "..\\webERP_React_Client\\weberp_react_client.esproj",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\weberp_react_client.esproj",
-              "RelativeToolTip": "..\\webERP_React_Client\\weberp_react_client.esproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-16T10:19:41.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
               "RelativeDocumentMoniker": "..\\webERP_React_Client\\src\\App.jsx",
               "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
               "RelativeToolTip": "..\\webERP_React_Client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-02-16T10:18:54.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\index.html",
-              "RelativeDocumentMoniker": "..\\webERP_React_Client\\index.html",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\index.html",
-              "RelativeToolTip": "..\\webERP_React_Client\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-16T10:18:41.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T19:46:24.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "package-lock.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\package-lock.json",
-              "RelativeDocumentMoniker": "..\\webERP_React_Client\\package-lock.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\package-lock.json",
-              "RelativeToolTip": "..\\webERP_React_Client\\package-lock.json",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T19:40:23.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_webApp_MVC\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T19:40:09.066Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-16T12:59:00.994Z",
               "EditorCaption": ""
             }
           ]
