@@ -59,7 +59,21 @@ builder.Services.AddReverseProxy().LoadFromMemory(
 
 var app = builder.Build();
 
-app.MapGet("/api", () => "Hello asp.net core");
+int countValue = 0;
+
+// app.MapGet("/api", () => "Hello asp.net core"); // 여기에 클라이언트에서 보낸 값을 표시 할 수는 없을까 ... react의 count값을 전달해서 표시해보기
+// React에서 보낸 count 값 저장
+app.MapPost("/update-count", async (HttpContext context) =>
+{
+    var requestBody = await new StreamReader(context.Request.Body).ReadToEndAsync();
+    if (int.TryParse(requestBody, out int newCount))
+    {
+        countValue = newCount;
+    }
+    context.Response.StatusCode = 204; // No Content
+});
+app.MapGet("/api", () => $"Hello asp.net core, Count : {countValue}");
+
 
 app.MapReverseProxy();
 
