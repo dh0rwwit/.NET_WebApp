@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerProject_1", "ServerProject_1.csproj", "{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerProject_1", "ServerProject_1.csproj", "{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vue_client_1", "..\vue_client_1\vue_client_1.esproj", "{96D6025F-0489-4EC3-9F82-253BE3D3DF92}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vue_client_2", "..\vue_client_2\vue_client_2.esproj", "{27DCED82-B08D-4903-AA5C-5FCE50130B2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,18 @@ Global
 		{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D6025F-0489-4EC3-9F82-253BE3D3DF92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DCED82-B08D-4903-AA5C-5FCE50130B2F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

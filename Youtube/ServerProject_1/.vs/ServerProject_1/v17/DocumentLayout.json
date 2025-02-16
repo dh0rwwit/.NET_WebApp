@@ -3,12 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{27DCED82-B08D-4903-AA5C-5FCE50130B2F}|..\\vue_client_2\\vue_client_2.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_2\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27DCED82-B08D-4903-AA5C-5FCE50130B2F}|..\\vue_client_2\\vue_client_2.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_2\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\serverproject_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\serverproject_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\serverproject_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37FEEDC8-EB22-46E6-BF7B-C4E7B41AEDB1}|ServerProject_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D6025F-0489-4EC3-9F82-253BE3D3DF92}|..\\vue_client_1\\vue_client_1.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_1\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D6025F-0489-4EC3-9F82-253BE3D3DF92}|..\\vue_client_1\\vue_client_1.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_1\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D6025F-0489-4EC3-9F82-253BE3D3DF92}|..\\vue_client_1\\vue_client_1.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_1\\src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D6025F-0489-4EC3-9F82-253BE3D3DF92}|..\\vue_client_1\\vue_client_1.esproj|c:\\users\\dh0rw\\desktop\\.neterp\\youtube\\vue_client_1\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +39,133 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 155,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\vite.config.js",
+              "RelativeDocumentMoniker": "..\\vue_client_1\\vite.config.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\vite.config.js",
+              "RelativeToolTip": "..\\vue_client_1\\vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-16T13:52:13.546Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\src\\main.js",
+              "RelativeDocumentMoniker": "..\\vue_client_1\\src\\main.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\src\\main.js",
+              "RelativeToolTip": "..\\vue_client_1\\src\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-16T14:05:53.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "..\\vue_client_1\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\.vscode\\launch.json",
+              "RelativeToolTip": "..\\vue_client_1\\.vscode\\launch.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T14:00:12.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.vue",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\src\\App.vue",
+              "RelativeDocumentMoniker": "..\\vue_client_1\\src\\App.vue",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_1\\src\\App.vue",
+              "RelativeToolTip": "..\\vue_client_1\\src\\App.vue",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2025-02-16T14:15:18.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-15T19:18:16.409Z",
+              "WhenOpened": "2025-02-16T14:04:51.194Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T19:09:08.476Z",
+              "WhenOpened": "2025-02-16T13:58:24.166Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_2\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "..\\vue_client_2\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_2\\.vscode\\launch.json",
+              "RelativeToolTip": "..\\vue_client_2\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T14:44:04.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_2\\vite.config.js",
+              "RelativeDocumentMoniker": "..\\vue_client_2\\vite.config.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\vue_client_2\\vite.config.js",
+              "RelativeToolTip": "..\\vue_client_2\\vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-16T14:43:45.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\Youtube\\ServerProject_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T14:01:07.127Z",
               "EditorCaption": ""
             }
           ]
