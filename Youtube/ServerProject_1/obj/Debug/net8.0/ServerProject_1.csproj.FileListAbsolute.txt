@@ -33,3 +33,38 @@ C:\Users\dh0rw\Desktop\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\refint\S
 C:\Users\dh0rw\Desktop\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.pdb
 C:\Users\dh0rw\Desktop\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.genruntimeconfig.cache
 C:\Users\dh0rw\Desktop\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ref\ServerProject_1.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\appsettings.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.staticwebassets.runtime.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.exe
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.deps.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.runtimeconfig.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\ServerProject_1.pdb
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.csproj.AssemblyReference.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.AssemblyInfoInputs.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.AssemblyInfo.cs
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.csproj.CoreCompileInputs.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.RazorAssemblyInfo.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.RazorAssemblyInfo.cs
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.sourcelink.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets\msbuild.ServerProject_1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets\msbuild.build.ServerProject_1.props
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServerProject_1.props
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServerProject_1.props
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\scopedcss\bundle\ServerProject_1.styles.css
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\scopedcss\projectbundle\ServerProject_1.bundle.scp.css
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerPr.1A93FB50.Up2Date
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\refint\ServerProject_1.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.pdb
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ServerProject_1.genruntimeconfig.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\ServerProject_1\obj\Debug\net8.0\ref\ServerProject_1.dll

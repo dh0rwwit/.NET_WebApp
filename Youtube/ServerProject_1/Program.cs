@@ -15,7 +15,7 @@ app.MapGet("/",
         int? b,
         HttpContext ctx
     )
-    => $"MapGet in Program.cs(링크입력예시 : https://localhost:7122/?a=10&b=5) : {(a ?? 0) * (b ?? 0)}, " +
+    => "Server_0, "+ $"MapGet in Program.cs(링크입력예시 : https://localhost:7122/?a=10&b=5) : {(a ?? 0) * (b ?? 0)}, " +
     $"{(ctx.Request.Headers.TryGetValue("test", out var v) ? v : "")}");
 app.MapGet("/api", () => "Hello vue.js");
 

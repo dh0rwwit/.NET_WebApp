@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\webERP_webApp_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "RelativeToolTip": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\vite.config.js",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-15T14:11:59.861Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
+              "RelativeToolTip": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T13:27:45.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
+              "RelativeToolTip": "..\\..\\..\\..\\dh0rw\\Desktop\\.NETERP\\webERP_React_Client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-16T12:59:00.994Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
