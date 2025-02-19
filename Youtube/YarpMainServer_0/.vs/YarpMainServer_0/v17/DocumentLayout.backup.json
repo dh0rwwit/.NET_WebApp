@@ -3,36 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\yarpmainserver_0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:yarpmainserver_0.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\yarpmainserver_0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:yarpmainserver_0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\yarpserver_0.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpmainserver_0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A10B179-854C-4CCF-9F12-B8BED897C8DE}|YarpMainServer_0.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFC29B0-55B3-4AB9-BE5E-B3342F556489}|..\\YarpServer_1\\YarpServer_1.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFC29B0-55B3-4AB9-BE5E-B3342F556489}|..\\YarpServer_1\\YarpServer_1.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B19A0109-A65C-4355-951B-3F44349B6E6E}|..\\YarpServer_0\\YarpServer_0.csproj|c:\\users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.neterp\\youtube\\yarpserver_0\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,31 +40,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "YarpMainServer_0",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\YarpMainServer_0.csproj",
-              "RelativeDocumentMoniker": "YarpMainServer_0.csproj",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\YarpMainServer_0.csproj",
-              "RelativeToolTip": "YarpMainServer_0.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T16:39:36.603Z",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\YarpServer_1\\Program.cs",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_1\\Program.cs",
+              "RelativeToolTip": "..\\YarpServer_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T15:02:46.361Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YarpMainServer_0",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\YarpMainServer_0.csproj",
-              "RelativeDocumentMoniker": "YarpMainServer_0.csproj",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\YarpMainServer_0.csproj",
-              "RelativeToolTip": "YarpMainServer_0.csproj",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_1\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\YarpServer_1\\appsettings.json",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_1\\appsettings.json",
+              "RelativeToolTip": "..\\YarpServer_1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-18T16:39:33.068Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T15:02:09.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T14:57:52.937Z",
               "EditorCaption": ""
             },
             {
@@ -77,87 +89,74 @@
               "RelativeDocumentMoniker": "..\\YarpServer_0\\Program.cs",
               "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\Program.cs",
               "RelativeToolTip": "..\\YarpServer_0\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:32:18.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "..\\YarpServer_0\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.Development.json",
-              "RelativeToolTip": "..\\YarpServer_0\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T16:32:17.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\YarpServer_0\\appsettings.json",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.json",
-              "RelativeToolTip": "..\\YarpServer_0\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T16:30:52.839Z",
+              "WhenOpened": "2025-02-19T14:57:44.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T16:30:03.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "..\\YarpServer_0\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\Properties\\launchSettings.json",
-              "RelativeToolTip": "..\\YarpServer_0\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T16:29:40.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T16:29:13.337Z",
+              "WhenOpened": "2025-02-19T14:55:02.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpMainServer_0\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:27:42.204Z",
+              "WhenOpened": "2025-02-19T14:54:35.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YarpServer_0",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\YarpServer_0.csproj",
+              "RelativeDocumentMoniker": "..\\YarpServer_0\\YarpServer_0.csproj",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\YarpServer_0.csproj",
+              "RelativeToolTip": "..\\YarpServer_0\\YarpServer_0.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-19T15:00:38.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\YarpServer_0\\appsettings.json",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\appsettings.json",
+              "RelativeToolTip": "..\\YarpServer_0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T14:57:47.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\YarpServer_0\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\Youtube\\YarpServer_0\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\YarpServer_0\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T15:00:42.89Z",
               "EditorCaption": ""
             }
           ]

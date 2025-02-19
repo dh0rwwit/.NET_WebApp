@@ -13,6 +13,7 @@ builder.Services.AddReverseProxy()
 var app = builder.Build();
 
 app.MapGet("/api", () => "Set the EndPoint api!");
+app.MapGet("/1/legacy", () => "Replaced!"); // appsettings.json 설정 확인.
 app.MapReverseProxy();
 
 

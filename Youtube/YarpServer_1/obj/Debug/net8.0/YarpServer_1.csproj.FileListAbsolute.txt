@@ -29,3 +29,7 @@ C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\refin
 C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\YarpServer_1.pdb
 C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\YarpServer_1.genruntimeconfig.cache
 C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\ref\YarpServer_1.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\YarpServer_1.csproj.AssemblyReference.cache
+C:\Users\moomo\바탕 화면\.NETERP\Youtube\YarpServer_1\obj\Debug\net8.0\YarpServ.3FFE6A8A.Up2Date
