@@ -7,6 +7,8 @@ using System.Collections.Generic;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 builder.Services.AddReverseProxy().LoadFromMemory(
     new[]
     {
@@ -20,7 +22,11 @@ builder.Services.AddReverseProxy().LoadFromMemory(
     }
 );
 
+// 컨트롤러
+builder.Services.AddControllers();
+
 var app = builder.Build();
+
 
 // 상태 저장을 위한 변수
 int countValue = 0;
@@ -39,6 +45,7 @@ app.MapPost("/update-count", async (HttpContext context) =>
 // 클라이언트에서 count 값을 받아와서 표시
 app.MapGet("/api", () => $"Hello asp.net core, Count: {countValue}");
 
+app.MapControllers();
 app.MapReverseProxy();
 
 #region 모든 응답을 UTF-8로 강제 설정

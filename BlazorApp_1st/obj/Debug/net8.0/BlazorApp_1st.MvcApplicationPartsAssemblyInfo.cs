@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BlazorApp_1st")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8428ebd9afeb9a8a5ef74602a6508c20d2da2ac6")]
-[assembly: System.Reflection.AssemblyProductAttribute("BlazorApp_1st")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BlazorApp_1st")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("webERP_webApp_MVC")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
 
