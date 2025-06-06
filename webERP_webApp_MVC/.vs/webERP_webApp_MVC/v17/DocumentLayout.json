@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\ServerProject\\webERP_webApp_MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|d:\\serverproject\\weberp_webapp_mvc\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|d:\\serverproject\\weberp_webapp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|d:\\serverproject\\weberp_webapp_mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|d:\\serverproject\\weberp_webapp_mvc\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "D:\\ServerProject\\webERP_webApp_MVC\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
-              "ToolTip": "D:\\ServerProject\\webERP_webApp_MVC\\Models\\TodoItem.cs",
-              "RelativeToolTip": "Models\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
+              "Title": "TodoItemsController.cs",
+              "DocumentMoniker": "D:\\ServerProject\\webERP_webApp_MVC\\Controllers\\TodoItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoItemsController.cs",
+              "ToolTip": "D:\\ServerProject\\webERP_webApp_MVC\\Controllers\\TodoItemsController.cs",
+              "RelativeToolTip": "Controllers\\TodoItemsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T04:27:14.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ServerProject\\webERP_webApp_MVC\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ServerProject\\webERP_webApp_MVC\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T04:26:25.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ServerProject\\webERP_webApp_MVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\ServerProject\\webERP_webApp_MVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T01:38:12.51Z",
+              "WhenOpened": "2025-06-06T09:41:16.183Z",
               "EditorCaption": ""
             }
           ]

@@ -14,5 +14,11 @@
     <Folder Include="nginx\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Client_Server_SharedLibrary">
+      <HintPath>..\Client_Server_SharedLibrary\bin\Debug\net8.0\Client_Server_SharedLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
 

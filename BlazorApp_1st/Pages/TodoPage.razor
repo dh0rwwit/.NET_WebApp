@@ -1,0 +1,40 @@
+﻿@page "/todo"
+@inject Services.TodoService TodoService // 웹 서버 서비스 주입
+@using Client_Server_SharedLibrary.Models;
+
+<h3>TodoPage</h3>
+@if (todos == null)
+{
+    <p>Loading...</p>
+}
+else if (!todos.Any())
+{
+    <p>No todos found.</p> // 리스트 없으면 출력
+}
+else
+{
+    <ul>
+        @foreach (var item in todos)
+        {
+            <li>
+                <input type="checkbox" checked="@item.IsDone" disabled />
+                <span style="@(item.IsDone ? "text-decoration: line-through;" : "")">
+                    @item.Title <!-- 취소선 -->
+                </span>
+            </li>
+        }
+    </ul>
+}
+
+
+@code
+{
+    private IEnumerable<TodoItem>? todos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        todos = await TodoService.GetTodos();
+
+    }
+}
+

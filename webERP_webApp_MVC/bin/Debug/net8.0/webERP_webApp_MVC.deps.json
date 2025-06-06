@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "webERP_webApp_MVC/1.0.0": {
         "dependencies": {
-          "Yarp.ReverseProxy": "2.2.0"
+          "Yarp.ReverseProxy": "2.2.0",
+          "Client_Server_SharedLibrary": "1.0.0.0"
         },
         "runtime": {
           "webERP_webApp_MVC.dll": {}
@@ -30,6 +31,14 @@
           "lib/net8.0/Yarp.ReverseProxy.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.200.24.42901"
+          }
+        }
+      },
+      "Client_Server_SharedLibrary/1.0.0.0": {
+        "runtime": {
+          "Client_Server_SharedLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -54,6 +63,11 @@
       "sha512": "sha512-t16Z+OplJEElJy1Q6t12EwMGF2BeLw8IKjD1ema7ewbCRaMqeVIRPZo3MlxidnRFRK+tV6II8tKYX+7N5ZS98A==",
       "path": "yarp.reverseproxy/2.2.0",
       "hashPath": "yarp.reverseproxy.2.2.0.nupkg.sha512"
+    },
+    "Client_Server_SharedLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

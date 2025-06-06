@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webERP_webApp_MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8428ebd9afeb9a8a5ef74602a6508c20d2da2ac6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e89c1cb38b5177f49cc1b13dfb5912868ebf656")]
 [assembly: System.Reflection.AssemblyProductAttribute("webERP_webApp_MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webERP_webApp_MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+D:\ServerProject\Client_Server_SharedLibrary\bin\Debug\net8.0\Client_Server_SharedLibrary.deps.json
+D:\ServerProject\Client_Server_SharedLibrary\bin\Debug\net8.0\Client_Server_SharedLibrary.dll
+D:\ServerProject\Client_Server_SharedLibrary\bin\Debug\net8.0\Client_Server_SharedLibrary.pdb
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.AssemblyInfoInputs.cache
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.AssemblyInfo.cs
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.csproj.CoreCompileInputs.cache
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.sourcelink.json
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.dll
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\refint\Client_Server_SharedLibrary.dll
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\Client_Server_SharedLibrary.pdb
+D:\ServerProject\Client_Server_SharedLibrary\obj\Debug\net8.0\ref\Client_Server_SharedLibrary.dll

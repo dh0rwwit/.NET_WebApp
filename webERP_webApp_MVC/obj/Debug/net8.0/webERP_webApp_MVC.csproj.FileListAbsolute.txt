@@ -68,3 +68,5 @@ D:\ServerProject\webERP_webApp_MVC\obj\Debug\net8.0\refint\webERP_webApp_MVC.dll
 D:\ServerProject\webERP_webApp_MVC\obj\Debug\net8.0\webERP_webApp_MVC.pdb
 D:\ServerProject\webERP_webApp_MVC\obj\Debug\net8.0\webERP_webApp_MVC.genruntimeconfig.cache
 D:\ServerProject\webERP_webApp_MVC\obj\Debug\net8.0\ref\webERP_webApp_MVC.dll
+D:\ServerProject\webERP_webApp_MVC\bin\Debug\net8.0\Client_Server_SharedLibrary.dll
+D:\ServerProject\webERP_webApp_MVC\bin\Debug\net8.0\Client_Server_SharedLibrary.pdb
