@@ -1,1 +1,2 @@
 C:\Users\dh0rw\Desktop\.NETERP\webERP_React_Client\obj\Debug\weberp_react_client.esproj.CoreCompileInputs.cache
+D:\ServerProject\webERP_React_Client\obj\Debug\weberp_react_client.esproj.CoreCompileInputs.cache

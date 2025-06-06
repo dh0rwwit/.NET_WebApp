@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\moomo\\\uBC14\uD0D5 \uD654\uBA74\\.NETERP\\webERP_webApp_MVC\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\ServerProject\\webERP_webApp_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|d:\\serverproject\\weberp_webapp_mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCCE3B55-E7B6-48EB-B497-D2A2312D2BC9}|webERP_webApp_MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ServerProject\\webERP_webApp_MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ServerProject\\webERP_webApp_MVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:38:12.51Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

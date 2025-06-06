@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moomo\\바탕 화면\\.NETERP\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj": {}
+    "D:\\ServerProject\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moomo\\바탕 화면\\.NETERP\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj": {
+    "D:\\ServerProject\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moomo\\바탕 화면\\.NETERP\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj",
+        "projectUniqueName": "D:\\ServerProject\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj",
         "projectName": "webERP_webApp_MVC",
-        "projectPath": "C:\\Users\\moomo\\바탕 화면\\.NETERP\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj",
+        "projectPath": "D:\\ServerProject\\webERP_webApp_MVC\\webERP_webApp_MVC.csproj",
         "packagesPath": "C:\\Users\\moomo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moomo\\바탕 화면\\.NETERP\\webERP_webApp_MVC\\obj\\",
+        "outputPath": "D:\\ServerProject\\webERP_webApp_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
