@@ -16,11 +16,6 @@ D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\ASP.NETcoreMVC.RazorAssemblyInfo.
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\ASP.NETcoreMVC.sourcelink.json
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.build.json
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.development.json
-D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets\msbuild.ASP.NETcoreMVC.Microsoft.AspNetCore.StaticWebAssets.props
-D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.ASP.NETcoreMVC.props
-D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NETcoreMVC.props
-D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ASP.NETcoreMVC.props
-D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.pack.json
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\scopedcss\bundle\ASP.NETcoreMVC.styles.css
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\scopedcss\projectbundle\ASP.NETcoreMVC.bundle.scp.css
@@ -29,3 +24,11 @@ D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\refint\ASP.NETcoreMVC.dll
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\ASP.NETcoreMVC.pdb
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\ASP.NETcoreMVC.genruntimeconfig.cache
 D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\ref\ASP.NETcoreMVC.dll
+D:\.NET_WebApp\ASP.NETcoreMVC\bin\Debug\net8.0\ASP.NETcoreMVC.staticwebassets.endpoints.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\.NET_WebApp\ASP.NETcoreMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

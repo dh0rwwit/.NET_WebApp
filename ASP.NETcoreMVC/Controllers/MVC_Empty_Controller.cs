@@ -2,6 +2,7 @@
 
 namespace ASP.NETcoreMVC.Controllers
 {
+    [Route("api/test")]
     public class MVC_Empty_Controller : Controller
     {
         public IActionResult Index()
@@ -12,7 +13,8 @@ namespace ASP.NETcoreMVC.Controllers
         [HttpGet("hello")]
         public IActionResult GetHello()
         {
-            return Ok(new { message = "Hello from ASP.NET Core!" });
+            //return Ok(new { message = "Hello from ASP.NET Core!" });
+            return Content("Hello from ASP.NET Core!", "text/plain; charset=utf-8");
         }
 
         [HttpPost("echo")]

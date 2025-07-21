@@ -1,9 +1,31 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
 
+
 function App() {
+    const [data, setData] = useState('');
+
+    useEffect(() => {
+        fetch('/api/test/hello') // 백엔드 API
+            //.then(response => response.text())
+            //.then(text => setData(text))
+            //.catch(err => console.error('API 호출 실패', err));
+            .then(response => response.json())
+            .then(json => setData(json.message))
+            .catch(err => console.error('API failure', err));
+    }, []);
+
+    return (
+        <div>
+            <h1>Vite + React</h1>
+            <p>API 응답: {data}</p>
+        </div>
+    );
+}
+
+/*function App() {
     const [count, setCount] = useState(0)
     const [message, setMessage] = useState('')
 
@@ -30,7 +52,7 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
-            <h2>{message}</h2> {/* ASP.NET Core API에서 받은 메시지 표시 */}
+            <h2>{message}</h2> { ASP.NET Core API에서 받은 메시지 표시 }
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
@@ -44,6 +66,6 @@ function App() {
             </p>
         </>
     )
-}
+}*/
 
 export default App

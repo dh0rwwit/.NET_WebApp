@@ -6,11 +6,25 @@ builder.Services.AddControllersWithViews();
 // CORS 허용 설정
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp",
+    options.AddPolicy
+    (
+        "AllowReactApp",
         policy => policy
             .WithOrigins("http://localhost:5173")
             .AllowAnyHeader()
-            .AllowAnyMethod());
+            .AllowAnyMethod()
+            .AllowCredentials()
+    );
+});
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5001, listenOptions =>
+    {
+        listenOptions.UseHttps(); // HTTPS 포트
+    });
+
+    options.ListenAnyIP(5000); // HTTP 포트
 });
 
 var app = builder.Build();

@@ -3,11 +3,12 @@
   "WorkspaceRootPath": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\mvc_empty_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:controllers\\mvc_empty_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14A76E7B-5A0B-41AF-BF7E-7AAE0553C3FC}|..\\React_UI\\react_ui.esproj|d:\\.net_webapp\\react_ui\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -16,17 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\read_write_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:controllers\\read_write_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14A76E7B-5A0B-41AF-BF7E-7AAE0553C3FC}|..\\React_UI\\react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\mvc_empty_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:controllers\\mvc_empty_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T08:00:23.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T07:38:16.551Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -72,46 +36,34 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T07:33:40.287Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\vite.config.js",
-              "RelativeDocumentMoniker": "..\\React_UI\\vite.config.js",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\vite.config.js",
-              "RelativeToolTip": "..\\React_UI\\vite.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-02T07:28:51.703Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T00:44:56.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.jsx",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
-              "RelativeDocumentMoniker": "..\\React_UI\\src\\App.jsx",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
-              "RelativeToolTip": "..\\React_UI\\src\\App.jsx",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-02T07:29:00.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MVC_Empty_Controller.cs",
               "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\MVC_Empty_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\MVC_Empty_Controller.cs",
               "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\MVC_Empty_Controller.cs",
               "RelativeToolTip": "Controllers\\MVC_Empty_Controller.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T07:26:08.856Z",
               "EditorCaption": ""
@@ -124,7 +76,7 @@
               "RelativeDocumentMoniker": "Controllers\\Read_Write_Controller.cs",
               "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\Read_Write_Controller.cs",
               "RelativeToolTip": "Controllers\\Read_Write_Controller.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T07:25:17.304Z",
               "EditorCaption": ""
