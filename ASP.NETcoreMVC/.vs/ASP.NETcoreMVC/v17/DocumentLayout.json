@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T07:33:40.287Z",
               "IsPinned": true,
@@ -64,8 +64,7 @@
               "RelativeToolTip": "Controllers\\MVC_Empty_Controller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T07:26:08.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T07:26:08.856Z"
             },
             {
               "$type": "Document",
