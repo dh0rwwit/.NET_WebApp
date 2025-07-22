@@ -1,3 +1,6 @@
+Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,12 +22,22 @@ builder.Services.AddCors(options =>
 
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(5001, listenOptions =>
-    {
-        listenOptions.UseHttps(); // HTTPS 포트
-    });
+    /*
+        options.ListenAnyIP(5001, listenOptions =>
+        {
+            listenOptions.UseHttps(); // HTTPS 포트
+        });
 
-    options.ListenAnyIP(5000); // HTTP 포트
+        options.ListenAnyIP(5000); // HTTP 포트
+    */
+
+    options.ListenLocalhost
+    (
+        5001, listenOpion =>
+        {
+            listenOpion.UseHttps();
+        }
+    );
 });
 
 var app = builder.Build();
