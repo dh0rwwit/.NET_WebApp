@@ -1,3 +1,5 @@
+using ASP.NETcoreMVC.Services;
+
 Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
 
 
@@ -6,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// CORS Çã¿ë ¼³Á¤
+// CORS í—ˆìš© ì„¤ì •
 builder.Services.AddCors(options =>
 {
     options.AddPolicy
@@ -25,10 +27,10 @@ builder.WebHost.ConfigureKestrel(options =>
     /*
         options.ListenAnyIP(5001, listenOptions =>
         {
-            listenOptions.UseHttps(); // HTTPS Æ÷Æ®
+            listenOptions.UseHttps(); // HTTPS í¬íŠ¸
         });
 
-        options.ListenAnyIP(5000); // HTTP Æ÷Æ®
+        options.ListenAnyIP(5000); // HTTP í¬íŠ¸
     */
 
     options.ListenLocalhost
@@ -40,10 +42,12 @@ builder.WebHost.ConfigureKestrel(options =>
     );
 });
 
+builder.Services.AddScoped<pgAdoNetService>();
+
 var app = builder.Build();
 
 
-// CORS »ç¿ë
+// CORS ì‚¬ìš©
 app.UseCors("AllowReactApp");
 
 // Configure the HTTP request pipeline.
