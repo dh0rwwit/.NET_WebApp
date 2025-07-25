@@ -14,3 +14,4 @@ ASP.NETcoreMVC/appsettings.json
 *.vsidx
 /ASP.NETcoreMVC/bin/Debug/net8.0
 ASP.NETcoreMVC/bin/Debug/net8.0/appsettings.json
+ASP.NETcoreMVC/appsettings.json
