@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\services\\pgadonetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:services\\pgadonetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\pgadonetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:controllers\\pgadonetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\services\\pgadonetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|solutionrelative:services\\pgadonetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2D1FCFD-2A69-42DE-9281-1D796DACFEF5}|ASP.NETcoreMVC.csproj|d:\\.net_webapp\\asp.netcoremvc\\controllers\\mvc_empty_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -44,20 +48,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T07:12:05.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "pgAdoNetController.cs",
               "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\pgAdoNetController.cs",
               "RelativeDocumentMoniker": "Controllers\\pgAdoNetController.cs",
               "ToolTip": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\pgAdoNetController.cs",
               "RelativeToolTip": "Controllers\\pgAdoNetController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T06:27:39.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "pgAdoNetService.cs",
               "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Services\\pgAdoNetService.cs",
               "RelativeDocumentMoniker": "Services\\pgAdoNetService.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MVC_Empty_Controller.cs",
               "DocumentMoniker": "D:\\.NET_WebApp\\ASP.NETcoreMVC\\Controllers\\MVC_Empty_Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\MVC_Empty_Controller.cs",
