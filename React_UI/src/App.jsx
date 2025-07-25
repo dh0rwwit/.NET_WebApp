@@ -15,6 +15,7 @@ function App() {
             .then(response => response.json())
             .then(json => setData(json.message))
             .catch(err => console.error('API failure', err));
+
     }, []);
 
     return (
@@ -23,6 +24,9 @@ function App() {
             <p>API 응답: {data}</p>
         </div>
     );
+
+
+
 }
 
 /*function App() {
