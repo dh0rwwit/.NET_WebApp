@@ -8,10 +8,10 @@ function App() {
     const [data, setData] = useState('');
 
     useEffect(() => {
-        fetch('/api/test/hello') // ¹é¿£µå API
+        fetch('/api/test/hello') // ë°±ì—”ë“œ API
             //.then(response => response.text())
             //.then(text => setData(text))
-            //.catch(err => console.error('API È£Ãâ ½ÇÆĞ', err));
+            //.catch(err => console.error('API í˜¸ì¶œ ì‹¤íŒ¨', err));
             .then(response => response.json())
             .then(json => setData(json.message))
             .catch(err => console.error('API failure', err));
@@ -20,7 +20,7 @@ function App() {
     return (
         <div>
             <h1>Vite + React</h1>
-            <p>API ÀÀ´ä: {data}</p>
+            <p>API ì‘ë‹µ: {data}</p>
         </div>
     );
 }
@@ -30,14 +30,14 @@ function App() {
     const [message, setMessage] = useState('')
 
     useEffect(() => {
-        // React °³¹ß ¼­¹ö¿¡¼­ API ¼­¹ö·Î ¿äÃ» º¸³»±â
-        fetch('/api/test/hello') // Vite proxy ¼³Á¤À» ÅëÇØ ASP.NET Core·Î ÇÁ·Ï½ÃµÊ
+        // React ê°œë°œ ì„œë²„ì—ì„œ API ì„œë²„ë¡œ ìš”ì²­ ë³´ë‚´ê¸°
+        fetch('/api/test/hello') // Vite proxy ì„¤ì •ì„ í†µí•´ ASP.NET Coreë¡œ í”„ë¡ì‹œë¨
             .then((res) => res.json())
             .then((data) => {
                 setMessage(data.message)
             })
             .catch((err) => {
-                console.error("API È£Ãâ ¿À·ù:", err)
+                console.error("API í˜¸ì¶œ ì˜¤ë¥˜:", err)
             })
     }, [])
 
@@ -52,7 +52,7 @@ function App() {
                 </a>
             </div>
             <h1>Vite + React</h1>
-            <h2>{message}</h2> { ASP.NET Core API¿¡¼­ ¹ŞÀº ¸Ş½ÃÁö Ç¥½Ã }
+            <h2>{message}</h2> { ASP.NET Core APIì—ì„œ ë°›ì€ ë©”ì‹œì§€ í‘œì‹œ }
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
