@@ -72,6 +72,7 @@ app.UseAuthorization(); // 인증/인허가
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Run();
