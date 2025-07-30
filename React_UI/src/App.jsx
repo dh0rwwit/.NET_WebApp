@@ -22,13 +22,96 @@ function App() {
         <div>
             <h1>Vite + React</h1>
             <p>API 응답: {data}</p>
+
+            <Counter/>
+
+            <h2>
+                테이블 생성
+            </h2>
+            <DataTable />
+
         </div>
     );
+}
 
 
+function DataTable() {
+    const [data, setData] = useState([]);
+
+    useEffect(
+        () => {
+            fetch('/api/pgAdoNet/users')
+                .then(res => res.json())
+                .then(json => setData(json))
+                .catch(err => console.error('API 호출 실패 : ', err));
+        }, []);
+
+    return (
+        <table border="1">
+            <thread>
+                <tr>
+                    <th> 이름 </th>
+                    <th> 나이 </th>
+                </tr>
+            </thread>
+            <tbody>
+                {
+                    data.map((person, index) => (
+                        <tr key={index}>
+                            <td> {person.name} </td>
+                            <td> {person.age} </td>
+                        </tr>
+                    ))}
+            </tbody>
+        </table>    
+    )
+
+
+    //const data = [
+    //    { name: "khkim", age: 11 },
+    //    { name: "dhkim1", age: 12 },
+    //    { name: "dhkim2", age: 13 }
+    //];
+
+    //return (
+    //    <table border="1">
+    //        <thead>
+    //            <tr>
+    //                <th>이름</th>
+    //                <th>나이</th>
+    //            </tr>
+    //        </thead>
+    //        <tbody>
+    //            {data.map((person, index) =>
+    //            (
+    //                <tr key={index}>
+    //                    <td>{person.name}</td>
+    //                    <td>{person.age}</td>
+    //                </tr>
+    //            ))}
+    //        </tbody>
+    //    </table>
+    //);
 
 }
 
+function Counter()
+{
+    const [cnt, setCnt] = useState(0);
+
+    return  (
+        <div>
+            <p> 현재 값: {cnt}</p>
+            <button onClick = {() => setCnt(cnt+1)}> +1</button>
+        </div>
+    );
+}
+
+
+
+
+
+export default App;
 /*function App() {
     const [count, setCount] = useState(0)
     const [message, setMessage] = useState('')
@@ -71,5 +154,3 @@ function App() {
         </>
     )
 }*/
-
-export default App

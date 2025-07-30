@@ -1,6 +1,8 @@
 using ASP.NETcoreMVC.Services;
 using Microsoft.AspNetCore.Mvc;
-
+using ASP.NETcoreMVC.Models;
+using Npgsql;
+using System.Threading.Tasks;
 namespace ASP.NETcoreMVC.Controllers
 {
     [ApiController]
@@ -21,13 +23,20 @@ namespace ASP.NETcoreMVC.Controllers
             return Ok(users);
         }
 
-
         [HttpGet("names")]
         public async Task<IActionResult> GetNames()
         {
             var names = await _service.GetNamesAsync();
             return Ok(names);
         }
+
+        [HttpGet("users")]
+        public async Task<IActionResult> GetUsers()
+        {
+            var users = await _service.GetUsersAsync();
+            return Ok(users);
+        }
+    
     }
 
 

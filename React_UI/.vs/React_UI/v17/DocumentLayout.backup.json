@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-23T01:38:04.78Z",
               "IsPinned": true,
@@ -48,8 +48,7 @@
               "RelativeToolTip": "vite.config.js",
               "ViewState": "AgIAABgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-25T07:55:55.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T07:55:55.397Z"
             },
             {
               "$type": "Document",
@@ -61,8 +60,7 @@
               "RelativeToolTip": "eslint.config.js",
               "ViewState": "AgIAABsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-25T07:55:51.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-25T07:55:51.665Z"
             }
           ]
         }
