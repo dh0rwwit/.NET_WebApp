@@ -2,10 +2,14 @@ import { useState, useEffect } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
+import TableRowAdd from './tableRowAdd';
+
+import { Link } from 'react-router-dom';
 
 
 function App() {
     const [data, setData] = useState('');
+    const [showTableRowAdd, setShowTableRowAdd] = useState(false);
 
     useEffect(() => {
         fetch('/api/test/hello') // 백엔드 API
@@ -22,12 +26,15 @@ function App() {
         <div>
             <h1>Vite + React</h1>
             <p>API 응답: {data}</p>
+            <Counter />
+            <button onClick= {() => setShowTableRowAdd(true)}> 테이블추가화면 여기에 보여주기 </button>
+            { showTableRowAdd && <TableRowAdd/> }
+            {/*<h2>*/}
+            {/*    테이블 생성*/}
+            {/*</h2>*/}
+            <Link to="/add-row"> <button> 테이블 추가 페이지로 이동 </button> </Link>
 
-            <Counter/>
 
-            <h2>
-                테이블 생성
-            </h2>
             <DataTable />
 
         </div>

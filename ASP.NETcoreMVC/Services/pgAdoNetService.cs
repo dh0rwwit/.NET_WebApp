@@ -7,18 +7,22 @@ namespace ASP.NETcoreMVC.Services
     public class pgAdoNetService
     {
         private readonly IConfiguration _config;
+        private readonly string _connStr;
 
         public pgAdoNetService(IConfiguration config)
         {
             _config = config;
+            _connStr = _config.GetConnectionString("PostgresDb")
+                ?? throw new InvalidOperationException("PostgresDb 연결 문자열이 설정되지 않았습니다.");
+            ;
+            // readonly로 전역선언된 변수, 생성자에서 한 번만 초기화 가능함.
         }
 
         public async Task<List<string>> GetNamesAsync()
         {
             var result = new List<string>();
-            string connStr = _config.GetConnectionString("PostgresDb");
 
-            await using var conn = new NpgsqlConnection(connStr);
+            await using var conn = new NpgsqlConnection(_connStr);
             await conn.OpenAsync();
 
             var cmd = new NpgsqlCommand("SELECT plantcode, plantname FROM masplant", conn);
@@ -39,9 +43,7 @@ namespace ASP.NETcoreMVC.Services
 
             try
             {
-                var connStr = _config.GetConnectionString("PostgresDb");
-
-                using (var conn = new NpgsqlConnection(connStr)) // 커넥션 값을 제대로 가져오지 않으면 여기서 튕긴다.
+                using (var conn = new NpgsqlConnection(_connStr)) // 커넥션 값을 제대로 가져오지 않으면 여기서 튕긴다.
                 {
                     await conn.OpenAsync();
 
@@ -52,9 +54,10 @@ namespace ASP.NETcoreMVC.Services
                         {
                             userList.Add(new User
                             {
-                                name = reader.GetString(0)
-                                ,
-                                age = reader.GetInt32(2)
+                                id = reader.GetString(0)
+                                ,name = reader.GetString(1)
+                                
+                                ,age = reader.GetInt32(2)
                             });
                         }
                     }
@@ -64,7 +67,7 @@ namespace ASP.NETcoreMVC.Services
             }
             catch (Exception ex)
             {
-                Console.WriteLine("예외 발생 : " + ex.Message);
+                Console.WriteLine("GetUsersAsync 예외 발생 : " + ex.Message);
                 throw;
             }
         }

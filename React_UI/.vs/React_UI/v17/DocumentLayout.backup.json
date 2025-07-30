@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\.NET_WebApp\\React_UI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\tablerowadd.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:src\\tablerowadd.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAACkAAAAAAAAAAAAkwDMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwDEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-23T01:38:04.78Z",
               "IsPinned": true,
@@ -40,27 +40,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\vite.config.js",
-              "RelativeDocumentMoniker": "vite.config.js",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\vite.config.js",
-              "RelativeToolTip": "vite.config.js",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-25T07:55:55.397Z"
+              "DocumentIndex": 0,
+              "Title": "tableRowAdd.jsx",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\tableRowAdd.jsx",
+              "RelativeDocumentMoniker": "src\\tableRowAdd.jsx",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\tableRowAdd.jsx",
+              "RelativeToolTip": "src\\tableRowAdd.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-30T06:52:57.005Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "eslint.config.js",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\eslint.config.js",
-              "RelativeDocumentMoniker": "eslint.config.js",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\eslint.config.js",
-              "RelativeToolTip": "eslint.config.js",
-              "ViewState": "AgIAABsAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-25T07:55:51.665Z"
+              "DocumentIndex": 1,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-30T07:10:02.129Z",
+              "EditorCaption": ""
             }
           ]
         }
