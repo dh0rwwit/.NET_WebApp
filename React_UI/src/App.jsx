@@ -47,7 +47,7 @@ function DataTable() {
 
     useEffect(
         () => {
-            fetch('/api/pgAdoNet/users')
+            fetch('/api/factorypgadonet/users')
                 .then(res => res.json())
                 .then(json => setData(json))
                 .catch(err => console.error('API 호출 실패 : ', err));

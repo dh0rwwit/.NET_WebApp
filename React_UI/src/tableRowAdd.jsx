@@ -6,7 +6,7 @@ export default function TableRowAdd() {
 
     const handleLoad = async () => {
         try {
-            const response = await fetch('/api/pgAdoNet/users') // 백엔드 GET API
+            const response = await fetch('/api/factorypgadonet/users') // 백엔드 GET API
             if (response.ok) {
                 const json = await response.json();
                 setdata(json) // 테이블에 반영
