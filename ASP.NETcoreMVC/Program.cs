@@ -1,4 +1,5 @@
 using ASP.NETcoreMVC.Services;
+using ASP.NETcoreMVC.Services.Interface;
 
 Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
 
@@ -42,10 +43,46 @@ builder.WebHost.ConfigureKestrel(options =>
     );
 });
 
-builder.Services.AddScoped<pgAdoNetService>();
+#region 서비스 DI 등록
+// 1. 서비스, DI등록. 이렇게 단순하게 등록하면, 인터페이스당 가장 밑에 있는 구현체 하나만 등록됨.
+//builder.Services.AddScoped<pgAdoNetService>();
+//builder.Services.AddScoped<ASP.NETcoreMVC.Services.Interface.IpgAdoNetService, ASP.NETcoreMVC.Services.pgAdoNetService>();
+//builder.Services.AddScoped<ASP.NETcoreMVC.Services.Interface.IpgAdoNetService, ASP.NETcoreMVC.Services.MockpgAdoNetService>();
+
+// 2. appsettings.json으로부터 개발,운영 정보 받음.
+//if (builder.Environment.IsDevelopment())
+//{
+//    builder.Services.AddScoped<IpgAdoNetService, MockpgAdoNetService>();
+//}
+//else
+//{
+//    builder.Services.AddScoped<IpgAdoNetService, pgAdoNetService>();
+//}
+// 3. Delegate Factory Pattern : 하나의 인터페이스에 여러개의 구현체를 가져오게 쓰는 방법. 
+builder.Services.AddScoped<FactoryPgAdoNetAService>();
+builder.Services.AddScoped<FactorypgAdoNetBService>(); // 미리 A,B를 등록해놔야 Func~이 제대로 작동함.
+builder.Services.AddScoped<Func<string, IpgAdoNetService>>
+(
+    provider => key => 
+    {
+        return key switch
+        {
+            "A" => provider.GetRequiredService<FactoryPgAdoNetAService>(), // https://localhost:5001/api/factorypgadoNet/names
+            "B" => provider.GetRequiredService<FactorypgAdoNetBService>(), // https://localhost:5001/api/factorypgBdoNet/names
+            _ => throw new ArgumentException("Invalid key",nameof(key))
+        };
+    }
+);
+// 세그먼트를 입력하면 Controller단에서 A,B인지 값을 Program.cs로 보내고 해당 Service를 실행한다.
+
+
+#endregion
+
+
 
 // 앱 생성
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
