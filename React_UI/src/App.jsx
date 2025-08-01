@@ -33,9 +33,11 @@ function App() {
             {/*    테이블 생성*/}
             {/*</h2>*/}
             <Link to="/add-row"> <button> 테이블 추가 페이지로 이동 </button> </Link>
-
-
             <DataTable />
+
+            <n></n>
+            <button onClick={DataTableFactory} > 조회  </button>
+            <DataTableFactory />
 
         </div>
     );
@@ -47,7 +49,7 @@ function DataTable() {
 
     useEffect(
         () => {
-            fetch('/api/factorypgadonet/users')
+            fetch('/api/factorypgadonet/users') // 컨트롤러 지정
                 .then(res => res.json())
                 .then(json => setData(json))
                 .catch(err => console.error('API 호출 실패 : ', err));
@@ -100,6 +102,123 @@ function DataTable() {
     //    </table>
     //);
 
+}
+
+function DataTableFactory()
+{
+    const [data, setdata] = useState([]);
+    const [key, setKey] = useState("A");
+    const handleLoad = async (selectedKey) => {
+        try {
+            setKey(selectedKey); // A,B키 누를때마다 상태 업데이트, 
+
+            const response = await fetch(`/api/factorypgadonet/userskey?key=${selectedKey}`)
+            if (response.ok) // 버튼 클릭 이벤트 실행?
+            {
+                const json = await response.json();
+                setdata(json); // select결과 넣기
+            }
+            else { console.error('서버에러', await response.text()) }
+        }
+        catch (err) { console.error("요청실패 : ",err)}
+    };
+    useEffect(
+        () => {
+            fetch(`/api/factorypgadonet/userskey?key=${key}`)
+                .then(res => res.json())
+                .then(json => setdata(json))
+                .catch(err => console.error("api access error : ", err));
+        }, [key]
+    );
+    return (
+        <div>
+            <div>
+                <button onClick={() => handleLoad("A")}> factorypgadonetA 실행 </button>
+                <button onClick={() => handleLoad("B")}> factorypgadonetB 실행 </button>
+                <button onClick=
+                    {() =>
+                        {
+                            setdata([]);
+                            setKey("A");
+                        }
+                    }>테이블 초기화</button> { /* setdata[]하면 .map()에 들어갈 값 없음*/}
+            </div>
+            <table border='1'>
+                <thead>
+                    <tr>
+                        <th> id </th>
+                        <th> 이름 </th>
+                        <th> 나이 </th>
+                        <th> 이메일(B버튼) </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        data.length === 0 ? (
+                            <tr>
+                                <td colSpan="3"> 데이터없음</td>
+                            </tr>
+                        ) : (
+                                data.map(
+                                    (person, index) => (
+                                        <tr key={index}>
+                                            <td> {person.id}</td>
+                                            <td> {person.name}</td>
+                                            <td> {person.age}</td>
+                                            <td> {person.email}</td>
+                                        </tr>
+                                    )
+                                )
+                        )
+                    }
+                </tbody>
+            </table>
+        </div>
+    );
+
+    // 기존
+/*
+    const [data, setData] = useState([]);
+    const [key, setKey] = useState("A");
+
+    useEffect(
+        () => {
+            fetch("/api/factorypgadonet/userskey?key=${key}")
+                .then(res => res.json())
+                .then(json => setData(json))
+                .catch(err => console.error("api access error : ", err));
+        }, [key]
+    );
+
+    return (
+        <div>
+            <div>
+                <button onClick={() => setKey("A")}> factorypgadonetA </button>
+                <button onClick={() => setKey("B")}> factorypgadonetB </button>
+            </div>
+            <table border='1'>
+                <thead>
+                    <tr>
+                        <th> 이름 </th>
+                        <th> 나이 </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        data.map(
+                            (person, index) => (
+                                <tr key={index}>
+                                    <td> {person.name}</td>
+                                    <td> {person.age}</td>
+                                </tr>
+                            )
+                        )
+                    }
+                </tbody>
+            </table>
+        </div>
+    );
+*/
 }
 
 function Counter()

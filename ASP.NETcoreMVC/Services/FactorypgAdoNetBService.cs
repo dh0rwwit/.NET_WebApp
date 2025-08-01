@@ -40,7 +40,7 @@ namespace ASP.NETcoreMVC.Services
                 {
                     await conn.OpenAsync();
 
-                    using (var cmd = new NpgsqlCommand("select id, name, age from sysuser", conn)) // 에러발생시 에러메세지 확인은...?
+                    using (var cmd = new NpgsqlCommand("select id, name, age, email from sysuser", conn)) // 에러발생시 에러메세지 확인은...?
                     using (var reader = await cmd.ExecuteReaderAsync())
                     {
                         while (await reader.ReadAsync())
@@ -49,7 +49,8 @@ namespace ASP.NETcoreMVC.Services
                             {
                                 id = reader.GetString(0),
                                 name = reader.GetString(1),
-                                age = reader.GetInt32(2)
+                                age = reader.GetInt32(2),
+                                email = reader.GetString(3)
                             });
                         }
                     }

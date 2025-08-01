@@ -22,7 +22,8 @@ namespace ASP.NETcoreMVC.Controllers
         public FactorypgAdoNetController(Func<string, IpgAdoNetService> serviceFactory)
         {
             _serviceFactory = serviceFactory;
-            _service = _serviceFactory("A"); // 요청마다 A, B , ... 동적으로 받게 만들 수 있음.
+            //_service = _serviceFactory("A"); // 메서드에서 결정하게 함
+
             //_connStr = _service.GetConnectionString("PostgresDb") ?? throw new InvalidOperationException("PostgresDb 연결 문자열이 설정되지 않았습니다.");
             /* IpgAdoNetService 에는 GetConnectionString() 이 없음 -> 생성자에서 꺼내쓰지 않고, 서비스 내부에서 처리하게 함.
                 1. 컨트롤러는 UI에서 사용자가 어떤 세그먼트 값을 요청하는지 받는 곳, 
@@ -47,9 +48,21 @@ namespace ASP.NETcoreMVC.Controllers
         [HttpGet("users")]
         public async Task<IActionResult> GetUsers()
         {
-            var users = await _service.GetUsersAsync();
+            var service = _serviceFactory("A");
+            var users = await service.GetUsersAsync();
             return Ok(users);
         }
+
+        // factory pattern, /api/factorypgadonet/userft?key=A , key가 없으면 "B"가 자동으로 맵핑됨. 
+        [HttpGet("userskey")]
+        public async Task<IActionResult> GetUsersByKey([FromQuery] string key = "A")
+        {
+            var service = _serviceFactory(key);
+            //var users = await _service.GetUsersAsync();
+            var users = await service.GetUsersAsync();
+            return Ok(users);
+        }
+
         [HttpGet("dynamic")]
         public IActionResult GetFromA()
         {
