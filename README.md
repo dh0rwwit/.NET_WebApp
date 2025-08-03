@@ -25,6 +25,9 @@ ASP.NET core의 경우, Blazor부터 react UI적용 , YARP,Routing 등등 기능
 </n>
 
 2025.07.25 _ DB-서버 연결
+</n>
+</n>
+2025.07.31 _ service구현체 interface 적용(factory)
 
 
 
