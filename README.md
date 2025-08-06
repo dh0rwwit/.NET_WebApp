@@ -9,17 +9,27 @@
 
 1. Architect Planed
 
-Client(Seperate with Server IP)
-  ↓
-[Load Balancer + WAF + SSL Termination]
-  ↓
-ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
-  ↓
-[NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
-  ↓
-ServerC (Consumer or Worker with Retry, Idempotent)
-  ↓
-RDB (SSL, Backup)
+  Client(Seperate with Server IP)
+
+    ↓
+
+  [Load Balancer + WAF + SSL Termination]
+
+    ↓
+
+  ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
+    
+    ↓
+
+  [NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
+    
+    ↓
+
+  ServerC (Consumer or Worker with Retry, Idempotent)
+    
+    ↓
+
+  RDB (SSL, Backup)
 
 
 
