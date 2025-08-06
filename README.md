@@ -45,7 +45,7 @@
 – This part needs to be revised.
 – Further research is needed on how to optimize data delivery.
 
-.......
+6. Progress...
 
 2025.07.21 _ Initialization(Client - Server Connect test)
 
