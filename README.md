@@ -1,6 +1,7 @@
 # .NET_WebApp
 - ASP.NET core
 - postgresql
+- redis
 - react
 
 0. Plan
@@ -9,27 +10,27 @@
 
 1. Architect Planed
 
-  Client(Seperate with Server IP)
+Client(Seperate with Server IP)
 
-    |
+↓
 
-  [Load Balancer + WAF + SSL Termination]
+[Load Balancer + WAF + SSL Termination]
 
-    |
+↓
 
-  ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
-    
-    |
+ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
 
-  [NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
-    
-    |
+↓
 
-  ServerC (Consumer or Worker with Retry, Idempotent)
-    
-    |
+[NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
 
-  RDB (SSL, Backup)
+↓
+
+ServerC (Consumer or Worker with Retry, Idempotent)
+
+↓
+
+RDB (SSL, Backup)
 
 
 
