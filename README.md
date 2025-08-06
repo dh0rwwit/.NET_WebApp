@@ -10,32 +10,32 @@
 
 1. Architect Planed
 
-Client(Seperate with Server IP)
+    Client(Seperate with Server IP)
 
-↓
+    ↓
 
-[Load Balancer + WAF + SSL Termination]
+    [Load Balancer + WAF + SSL Termination]
 
-↓
+    ↓
 
-ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
+    ServerA / ServerB - 2 Server(1 read, 1 update) routing (Stateless, API, secure)
 
-↓
+    ↓
 
-[NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
+    [NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
 
-↓
+    ↓
 
-ServerC (Consumer or Worker with Retry, Idempotent)
+    ServerC (Consumer or Worker with Retry, Idempotent)
 
-↓
+    ↓
 
-RDB (SSL, Backup)
-
-
+    RDB (SSL, Backup)
 
 
-3. Yarp ->Reverse Proxy, Load balance 적용
+
+
+3. Yarp ->Reverse Proxy, Load balance
   - WAF, SSL Termination
   - Stateless
     
