@@ -11,18 +11,28 @@
 1. Architecture Planed
 
     Client(Seperate with Server IP)
+   
     ↓
+   
     [Load Balancer + WAF + SSL Termination]
+   
     ↓
+   
     ServerA / ServerB - 2 Server routing (1 read, 1 update) (Stateless, API, secure)
+   
     ↓
+   
     [NoSQL: Redis/Kafka/MongoDB (TLS, Authenticate)]...maybe Redis
+   
     ↓
+   
     ServerC (Consumer or Worker with Retry, Idempotent)
+   
     ↓
+   
     RDB (pgsql, SSL, Backup)
 
-2. Yarp ->Reverse Proxy, Load balance
+3. Yarp ->Reverse Proxy, Load balance
   - WAF, SSL Termination
   - Stateless
     
