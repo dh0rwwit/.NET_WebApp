@@ -3,6 +3,8 @@
 - postgresql
 - redis
 - react
+- IDE : visual studio 2022
+- OS : Server on windows, Linux might be later...
 
 0. Plan
 - ASP.NET core with react UI
