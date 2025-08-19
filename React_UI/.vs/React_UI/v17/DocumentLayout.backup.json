@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\tablerowadd.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:src\\tablerowadd.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|d:\\.net_webapp\\react_ui\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{55625257-85A4-484C-8455-86B00BB7B22E}|react_ui.esproj|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwJIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwHkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-23T01:38:04.78Z",
               "IsPinned": true,
@@ -44,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "vite.config.js",
               "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\vite.config.js",
               "RelativeDocumentMoniker": "vite.config.js",
@@ -57,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.jsx",
               "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\main.jsx",
               "RelativeDocumentMoniker": "src\\main.jsx",
@@ -66,25 +62,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-30T07:10:02.129Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 130,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "tableRowAdd.jsx",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\tableRowAdd.jsx",
-              "RelativeDocumentMoniker": "src\\tableRowAdd.jsx",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\tableRowAdd.jsx",
-              "RelativeToolTip": "src\\tableRowAdd.jsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-08-01T06:18:25.78Z",
               "EditorCaption": ""
             }
           ]
