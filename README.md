@@ -54,5 +54,7 @@
 
 2025.08.07 _ build postgresql for outter Access
 
+2025.08.19 _ add Dynamic Model
+
 
 

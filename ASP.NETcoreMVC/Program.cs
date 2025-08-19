@@ -75,6 +75,9 @@ builder.Services.AddScoped<Func<string, IpgAdoNetService>>
 );
 // 세그먼트를 입력하면 Controller단에서 A,B인지 값을 Program.cs로 보내고 해당 Service를 실행한다.
 
+// Dynamic 모델 추가(DI등록) : IDynamicService의 DynamicService 메서드 등록
+builder.Services.AddScoped<IDynamicService, DynamicService>();
+
 
 #endregion
 
