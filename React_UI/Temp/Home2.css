@@ -1,0 +1,71 @@
+/* Home.css */
+
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.home {
+    width: 100%;
+    height: 100dvh;
+    /* 유리 같은 투명감 + 블러 */
+    background: rgba(33, 33, 33, 0.8); /* 반투명 검정 (#212121에 알파) */
+    backdrop-filter: blur(10px); /* 배경 흐림 */
+    -webkit-backdrop-filter: blur(10px); /* 사파리 호환 */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* 하단 고정 바 */
+.bottom-bar {
+    position: fixed;
+
+    bottom: 0; left: 0; right : 0; bottom:0; 
+
+    width: 100%;
+    background: #CFE8D5;
+
+    display: flex;
+    overflow-x: auto; /* 가로 스크롤 활성화 */
+    white-space: nowrap; /* 줄바꿈 방지 */
+    padding: 10px;
+    gap: 12px;
+
+    justify-content: space-between;
+    scrollbar-width: none; /* Firefox에서 스크롤바 안 보이게 */
+}
+.bottom-bar::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리에서 스크롤바 숨김 */
+}
+
+.bottom-bar button {
+    flex: 0 0 auto; /* 버튼 크기 고정 */
+    width: 150px; /* 원하는 크기 */
+    height: 50px;
+    background: #F5F5F5; /*#B43E69;*/
+    color: black;
+    border: 1px solid #D3D3D3;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bottom-bar button:hover {
+    background: #B43E69; /*#444;*/
+    color : white;
+}

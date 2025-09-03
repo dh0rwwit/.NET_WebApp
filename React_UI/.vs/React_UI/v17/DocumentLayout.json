@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\.NET_WebApp\\React_UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\react_ui.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:react_ui.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:src\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:src\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|d:\\.net_webapp\\react_ui\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9CD49ED5-FA6E-2771-2430-B40AF8C6F9D7}|react_ui.esproj|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-03T03:05:13.838Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "react_ui.esproj",
-              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\react_ui.esproj",
-              "RelativeDocumentMoniker": "react_ui.esproj",
-              "ToolTip": "D:\\.NET_WebApp\\React_UI\\react_ui.esproj",
-              "RelativeToolTip": "react_ui.esproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-03T02:07:27.493Z",
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\Home.css",
+              "RelativeDocumentMoniker": "src\\Home.css",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\Home.css",
+              "RelativeToolTip": "src\\Home.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-03T06:42:51.853Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\Home.jsx",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\Home.jsx",
+              "RelativeToolTip": "src\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-03T08:06:39.336Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-09-03T07:30:46.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\.NET_WebApp\\React_UI\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\.NET_WebApp\\React_UI\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-03T07:30:10.902Z",
               "EditorCaption": ""
             }
           ]

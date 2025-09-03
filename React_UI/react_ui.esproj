@@ -1,15 +1,17 @@
 <Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1184077">
-	<PropertyGroup>
-		<StartupCommand>npm run dev</StartupCommand>
-		<WorkingDirectory>$(MSBuildProjectDirectory)</WorkingDirectory>
-		<JavaScriptStartBrowser>true</JavaScriptStartBrowser>
-		<JavaScriptStartUrl>http://localhost:5173</JavaScriptStartUrl>
-		<JavaScriptServerReadyPattern>Local:.*http://localhost:\d+</JavaScriptServerReadyPattern>
-		<ShouldRunBuildScript>false</ShouldRunBuildScript>
-		<BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
-	</PropertyGroup>
-
-	<ItemGroup>
-		<LaunchSettings Include="launch.json" />
-	</ItemGroup>
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <WorkingDirectory>$(MSBuildProjectDirectory)</WorkingDirectory>
+    <JavaScriptStartBrowser>true</JavaScriptStartBrowser>
+    <JavaScriptStartUrl>http://localhost:5173</JavaScriptStartUrl>
+    <JavaScriptServerReadyPattern>Local:.*http://localhost:\d+</JavaScriptServerReadyPattern>
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\index.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <LaunchSettings Include="launch.json" />
+  </ItemGroup>
 </Project>
