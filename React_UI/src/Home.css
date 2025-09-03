@@ -53,6 +53,10 @@ body {
     padding-bottom: 72px;
 }
 
+.home h1 {
+    text-align: left;
+    margin-left: 20px; /* 필요하면 여백 */
+}
 /* 하단 고정 바 */
 .bottom-bar {
     position: fixed;
