@@ -1,12 +1,61 @@
-﻿import "./Home.css";
+﻿import { useRef, useEffect } from "react"
+import "./Home.css";
+
 
 export default function Home() {
+    const barRef = useRef(null);
+
+    useEffect(() => {
+
+        const el = barRef.current;
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        const mouseDownHandler = (e) => {
+            isDown = true;
+            startX = e.pageX - el.offsetLeft;
+            scrollLeft = el.scrollLeft;
+        };
+
+
+        const mouseLeaveHandler = () => {
+            isDown = false;
+        };
+
+        const mouseUpHandler = () => {
+            isDown = false;
+        }
+
+        const mouseMoveHandler = (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - el.offsetLeft;
+            const walk = (x - startX) * 1; // 스크롤 속도
+            el.scrollLeft = scrollLeft - walk;
+        };
+
+        el.addEventListener("mousedown", mouseDownHandler);
+        el.addEventListener("mouseleave", mouseLeaveHandler);
+        el.addEventListener("mouseup", mouseUpHandler);
+        el.addEventListener("mousemove", mouseMoveHandler);
+
+        return () => {
+            el.removeEventListener("mousedown", mouseDownHandler);
+            el.removeEventListener("mouseleave", mouseLeaveHandler);
+            el.removeEventListener("mouseup", mouseUpHandler);
+            el.removeEventListener("mousemove", mouseMoveHandler);
+        };
+
+    }, []);
+
+
     return (
         <div className="home">
             <h1>Main Widget</h1>
 
             {/* 하단 고정 버튼바 */}
-            <div className="bottom-bar">
+            <div className="bottom-bar" ref={ barRef }>
                 <button>배당가정</button>
                 <button>배당내역</button>
                 <button>종목별순입금매수액</button>
