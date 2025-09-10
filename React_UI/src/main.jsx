@@ -8,20 +8,18 @@ import ReactDOM from 'react-dom/client'
 
 import Home from "./Home.jsx"
 
+//ReactDOM.createRoot(document.getElementById('root')).render(
+//    <BrowserRouter>
+//        <Routes>
+//            <Route path="/" element={<Home />} /> {/*맨 처음 보게 될 화면 App에서 Home으로 수정수정*/}
+//            <Route path="/add-row" element={<TableRowAdd />} />
+//            </Routes>
+//    </BrowserRouter>
+//)
+
+// 렌더링은 App.jsx에서 한 번만한다.
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Home />} /> {/*맨 처음 보게 될 화면 App에서 Home으로 수정수정*/}
-            <Route path="/add-row" element={<TableRowAdd />} />
-            
-                
-            </Routes>
-    </BrowserRouter>
+    <App />
+    </BrowserRouter >,
 )
-
-// React에서 렌더링은 한 번만한다.
-//createRoot(document.getElementById('root')).render(
-//  <StrictMode>
-//    <App />
-//  </StrictMode>,
-//)
