@@ -41,7 +41,7 @@ body {
     height: 100vh;*/
 
     /* 유리 같은 투명감 + 블러 */
-    background: rgba(33, 33, 33, 0.8); /* 반투명 검정 (#212121에 알파) */
+    background: #212121; /* 반투명 검정 (#212121에 알파) */
     backdrop-filter: blur(10px); /* 배경 흐림 */
     -webkit-backdrop-filter: blur(10px); /* 사파리 호환 */
     color: white;

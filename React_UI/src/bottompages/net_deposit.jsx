@@ -1,5 +1,5 @@
-// Á¾¸ñº° ¼øÀÔ±İ ¸Å¼ö¾×
+// ì¢…ëª©ë³„ ìˆœì…ê¸ˆ ë§¤ìˆ˜ì•¡
 
 export default function NetDeposit() {
-    return <div style={{ padding: 24 }}>Á¾¸ñº° ¼øÀÔ±İ¸Å¼ö¾× ÆäÀÌÁö</div>;
+    return <div style={{ padding: 24 }}>ì¢…ëª©ë³„ ìˆœì…ê¸ˆë§¤ìˆ˜ì•¡ í˜ì´ì§€</div>;
 }

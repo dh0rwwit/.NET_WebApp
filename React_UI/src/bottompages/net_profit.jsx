@@ -1,5 +1,5 @@
-// ¼ÕÀÍÇÕ
+// ì†ìµí•©
 
 export default function NetProfit() {
-    return <div style={{ padding: 24 }}>¼ÕÀÍÇÕ ÆäÀÌÁö</div>;
+    return <div style={{ padding: 24 }}>ì†ìµí•© í˜ì´ì§€</div>;
 }

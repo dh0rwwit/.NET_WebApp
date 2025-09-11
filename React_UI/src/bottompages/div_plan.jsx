@@ -1,5 +1,6 @@
-// ¹è´ç°¡Á¤, °èÈ¹
+// ë°°ë‹¹ê°€ì •
+import "./css/div_plan.css"
 
 export default function DivPlan() {
-    return <div style={{ padding: 24 }}>¹è´ç°¡Á¤ ÆäÀÌÁö</div>;
+    return <div style={{ padding: 24 }}> ë°°ë‹¹ê°€ì • in vscode</div>;
 }
