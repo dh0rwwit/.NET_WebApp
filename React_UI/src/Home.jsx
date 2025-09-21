@@ -87,10 +87,9 @@ export default function Home() {
                         placeholder="id를 입력하세요"
                         autoComplete="username"
                         required
-                    >
-                    </input>
+                    />
 
-                    <label>password</label>
+                    <label className="auth-label" htmlFor="login-pw">비밀번호</label>
                     <input
                         id="login-pw"
                         name="pw"
@@ -101,28 +100,27 @@ export default function Home() {
                         placeholder="비밀번호를 입력하세요"
                         autoComplete="current-password"
                         required
+                    />
+
+                    <button type="button" className="btn btn-outline"
+                        onClick={() => navigate("auth/register")}
                     >
-                    </input>
+                    회원등록
+                    </button>
 
-                    <div className="auth-actions">
-                        <button type="button" className="btn btn-outline"
-                            onClick={() => navigate("auth/register")}
-                        >
-                        회원등록
-                        </button>
+                    <button type="submit" className="btn btn-primary">
+                        로그인
+                    </button>
 
-                        <button type="submit" className="btn btn-primary">
-                            로그인
-                        </button>
+                    <button type="button" className="btn btn-ghost"
+                        onClick={() => navigate("/auth/password")}
+                    >
+                        비밀번호변경
+                    </button>
 
-                        <button type="button" className="btn btn-ghost"
-                            onClick={() => navigate("/auth/password")}
-                        >
-                            비밀번호변경
-                        </button>
-                    </div>
                 </form>
             </aside>
+
 
 
             {/* 하단 고정 버튼바 */}
