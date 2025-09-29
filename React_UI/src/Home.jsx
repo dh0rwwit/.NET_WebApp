@@ -1,30 +1,36 @@
 ﻿import { useRef, useEffect, useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 
 export default function Home() {
     const barRef = useRef(null);
+
+
     const navigate = useNavigate();
     const [form, setForm] = useState({ id: "", pw: "" });
     // 로그인 상태, 기본상태는 false로 로그인 안 된 상태
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     // 로그인 상태 체크, 하단 바
-    const handleBottomClick = (path) => {
-        if (!isLoggedIn) {
-            alert("로그인을 해주세요");
-            return;
-        }
-        navigate(path);
+    //const handleBottomClick = (path) => {
+    //    if (!isLoggedIn) {
+    //        alert("로그인을 해주세요");
+    //        return;
+    //    }
+    //    navigate(path);
 
-    }
+    //}
 
 
 
     useEffect(() => {
 
         const el = barRef.current;
+        // 2025.09.29 baref 사용하지 않음.
+        if (!el) return;
+
         let isDown = false;
         let startX;
         let scrollLeft;
@@ -73,7 +79,7 @@ export default function Home() {
     // 로그인하면 하단 바 활성화
     const onLogin = (e) => {
         e.preventDefault();
-        alert('로그인 : ${form.id}');
+        alert(`로그인 : ${form.id}`);
         setIsLoggedIn(true); // 폼 로그인 시 상단 상태 바 상태 갱신
 
     }
@@ -159,14 +165,14 @@ export default function Home() {
             </aside>
 
 
-
+            {/* 레이아웃 요소로 교체 */}
             {/* 하단 고정 버튼바 */}
-            <div className="bottom-bar" ref={barRef}>
-                <button onClick={() => handleBottomClick("/bottompages/div_plan")}>배당가정</button>
-                <button onClick={() => handleBottomClick("/bottompages/net_deposit")}>종목별순입금매수액</button>
-                <button onClick={() => handleBottomClick("/bottompages/div_result")}>배당내역</button>
-                <button onClick={() => handleBottomClick("/bottompages/net_profit")}>손익합</button>
-            </div>
+            {/*<div className="bottom-bar" ref={barRef}>*/}
+            {/*    <button onClick={() => handleBottomClick("/bottompages/div_plan")}>배당가정</button>*/}
+            {/*    <button onClick={() => handleBottomClick("/bottompages/net_deposit")}>종목별순입금매수액</button>*/}
+            {/*    <button onClick={() => handleBottomClick("/bottompages/div_result")}>배당내역</button>*/}
+            {/*    <button onClick={() => handleBottomClick("/bottompages/net_profit")}>손익합</button>*/}
+            {/*</div>*/}
 
         </div>
 

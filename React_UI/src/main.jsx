@@ -17,7 +17,7 @@ import Home from "./Home.jsx"
 //    </BrowserRouter>
 //)
 
-// 렌더링은 App.jsx에서 한 번만한다.
+// BrowserRouter 렌더링은 App.jsx에서 한 번 만한다.
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <App />

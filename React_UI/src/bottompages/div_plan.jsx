@@ -1,6 +1,9 @@
-// 배당가정
-import "./css/div_plan.css"
-
+// src/pages/div_plan.jsx
 export default function DivPlan() {
-    return <div style={{ padding: 24 }}> 배당가정 in vscode</div>;
+    return (
+        <div className="div-plan">
+            <h1>배당가정 내역</h1>
+            
+        </div>
+    );
 }
