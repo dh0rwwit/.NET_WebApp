@@ -1,6 +1,7 @@
 using ASP.NETcoreMVC.Models;
 using ASP.NETcoreMVC.Services.Interface;
 using Npgsql;
+using System.Data.Common;
 
 namespace ASP.NETcoreMVC.Services
 {

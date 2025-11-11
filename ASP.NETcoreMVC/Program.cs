@@ -1,3 +1,4 @@
+using Npgsql;
 using ASP.NETcoreMVC.Services;
 using ASP.NETcoreMVC.Services.Interface;
 
@@ -6,7 +7,16 @@ Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// app.Developement.json에 있는 ConnectionString 값 가져오기
+var connectionString = builder.Configuration
+    .GetConnectionString("PostgresConnection");
+
+// NpgsqlDataSource 등록(Connection pool 포함, 스레드 세이프)
+// 2025.11.11 Nuget,Npgsql.DependencyInjection 설치, Npgsql 9.0.3 -> 9.0.4 upgrade 필요
+builder.Services.AddNpgsqlDataSource(connectionString);
+
+
+// MVC - Add services to the container. 
 builder.Services.AddControllersWithViews();
 
 // CORS 허용 설정
@@ -61,6 +71,7 @@ builder.WebHost.ConfigureKestrel(options =>
 // 3. Delegate Factory Pattern : 하나의 인터페이스에 여러개의 구현체를 가져오게 쓰는 방법. 
 builder.Services.AddScoped<FactoryPgAdoNetAService>();
 builder.Services.AddScoped<FactorypgAdoNetBService>(); // 미리 A,B를 등록해놔야 Func~이 제대로 작동함.
+builder.Services.AddScoped<FactoryPgCdoNetCService>();
 builder.Services.AddScoped<Func<string, IpgAdoNetService>>
 (
     provider => key => 
