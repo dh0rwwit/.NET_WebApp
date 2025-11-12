@@ -1,6 +1,45 @@
-using Npgsql;
 using ASP.NETcoreMVC.Services;
 using ASP.NETcoreMVC.Services.Interface;
+using Npgsql;
+using System.Text.Json;
+
+static Dictionary<string, object?> JsonToDict
+    (JsonElement root)
+{
+    var dict = new Dictionary<string, object?>(StringComparer.OrdinalIgnoreCase);
+
+    // JsonElement가 Object 형식인지 먼저 체크
+    if (root.ValueKind != JsonValueKind.Object)
+        return dict; // 빈 딕셔너리 리턴
+
+    foreach (var p in root.EnumerateObject())
+    {
+        dict[p.Name] = p.Value.ValueKind switch
+        {
+            JsonValueKind.Null => null,
+            JsonValueKind.True => true,
+            JsonValueKind.False => false,
+            JsonValueKind.Number =>
+                p.Value.TryGetInt64(out var l) ? l : p.Value.GetDouble(),
+            JsonValueKind.Array => p.Value.EnumerateArray()
+                .Select(e =>
+                    e.ValueKind == JsonValueKind.String ? (object?)e.GetString() :
+                    e.ValueKind == JsonValueKind.Number && e.TryGetInt64(out var li) ? li :
+                    e.ValueKind == JsonValueKind.Number ? e.GetDouble() :
+                    e.ValueKind == JsonValueKind.True ? true :
+                    e.ValueKind == JsonValueKind.False ? false :
+                    e.ToString())
+                .ToArray(),
+            _ => p.Value.ToString()
+        };
+    }
+
+    // 모든 경로에서 return dict 보장
+    return dict;
+}
+
+
+
 
 Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
 
