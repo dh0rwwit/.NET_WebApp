@@ -3,6 +3,7 @@ using ASP.NETcoreMVC.Services.Interface;
 using Npgsql;
 using System.Text.Json;
 
+// for Dynamic
 static Dictionary<string, object?> JsonToDict
     (JsonElement root)
 {
