@@ -20,10 +20,20 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=ServerState}/{id?}")
+//    .WithStaticAssets();
 
+app.UseStaticFiles();
+
+// 루트 핑, 개발/운영 확인용
+app.MapGet("/", () => Results.Ok(new
+{
+    env = app.Environment.EnvironmentName,
+    ok = true,
+    msg = "API is running"
+}));
+app.MapControllers(); // (기존 컨트롤러도 같이 사용 가능)
 
 app.Run();
