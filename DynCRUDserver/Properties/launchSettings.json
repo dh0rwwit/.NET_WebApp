@@ -1,0 +1,36 @@
+﻿{
+  "profiles": {
+    "DynCRUDserver (Dev)": {
+      "commandName": "Project", // kestrel 자동 실행
+      "dotnetRunMessages": true,
+      "launchBrowser": true, // 개발 시 자동 브라우저 오픈 여부
+      "applicationUrl": "http://localhost:3000;https://localhost:3001", // 포트는 여러 포트 지정 가능하다.
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development", // 커스텀 환경변수 설정
+        "CONNSTR_POSTGRES": "Host=localhost;Username=dev;Password=1234;Database=sample" // 커스텀 환경변수 설정방법...사용하지 않음.
+      }
+    },
+
+    "DynCRUDserver (Staging)": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:2001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging",
+        "PG_USER": "stageuser",
+        "PG_PASSWORD": "stagepass"
+      }
+    },
+
+    "DynCRUDserver (Prod Like)": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:1001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "PG_USER": "appuser",
+        "PG_PASSWORD": "super-secret"
+      }
+    }
+  }
+}

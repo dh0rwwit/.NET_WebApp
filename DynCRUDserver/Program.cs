@@ -1,6 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.AspNetCore.Builder.Extensions;
+using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.Extensions.Options;
+//using Npgsql;
+//using OnionASP.Options;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
+var env = builder.Environment;
+
+// 1) Options ¹ÙÀÎµù
+//builder.Services.Configure<AppOptions>(config.GetSection("App"));
+//builder.Services.Configure<PgDynamicOptions>(config.GetSection("PgDynamic"));
+//builder.Services.Configure<CorsOptions>(config.GetSection("Cors"));
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
