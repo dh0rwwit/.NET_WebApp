@@ -16,3 +16,7 @@ ASP.NETcoreMVC/.vs/ASP.NETcoreMVC/v17/.suo
 /ASP.NETcoreMVC/.vs/ASP.NETcoreMVC/v17
 ASP.NETcoreMVC/appsettings.Development.json
 ASP.NETcoreMVC/appsettings.Development.json
+/DynCRUDserver/.vs
+DynCRUDserver/DynCRUDserver/appsettings.json
+DynCRUDserver/DynCRUDserver/appsettings.Development.json
+DynCRUDserver/DynCRUDserver/Properties/launchSettings.json

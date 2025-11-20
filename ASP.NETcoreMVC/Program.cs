@@ -39,9 +39,6 @@ static Dictionary<string, object?> JsonToDict
     return dict;
 }
 
-
-
-
 Environment.SetEnvironmentVariable("ASPNETCORE_URLS", null);
 
 
