@@ -32,10 +32,10 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Home}/{action=ServerState}/{id?}")
-//    .WithStaticAssets();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=ServerState}/{id?}")
+    .WithStaticAssets();
 
 app.UseStaticFiles();
 
